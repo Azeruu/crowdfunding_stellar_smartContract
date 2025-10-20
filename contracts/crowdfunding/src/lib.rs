@@ -135,20 +135,7 @@ impl CrowdfundingContract {
             (total_raised * 100) / goal
         }
     }
-    //    Return campaign goal amount
-    //
-    // 2. get_deadline() -> u64
-    //    Return campaign deadline timestamp
-    //
-    // 3. is_goal_reached() -> bool
-    //    Check apakah total raised >= goal
-    //
-    // 4. is_ended() -> bool
-    //    Check apakah current time > deadline
-    //
-    // 5. get_progress_percentage() -> i128
-    //    Calculate (total_raised * 100) / goal
-    //
+
     // 6. refund() -> Challenge!
     //    Allow donors dapat uang balik kalau goal tidak tercapai
 }
